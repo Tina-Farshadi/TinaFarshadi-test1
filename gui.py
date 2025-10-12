@@ -19,7 +19,7 @@ task_entry.pack(side=tk.LEFT, padx=5)
 
 category_entry = tk.Entry(frame_input, width=15, font=("Times New Roman", 14))
 category_entry.pack(side=tk.LEFT, padx=5)
-category_entry.insert(0, "Category")  # پیش‌فرض
+category_entry.insert(0, "Category")  
 
 task_listbox = tk.Listbox(root, width=60, height=12, selectmode=tk.SINGLE, font=("Times New Roman", 13))
 task_listbox.pack(pady=10)
