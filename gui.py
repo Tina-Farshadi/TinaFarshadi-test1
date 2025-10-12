@@ -14,7 +14,7 @@ title_label.pack(pady=20)
 frame_input = tk.Frame(root, bg="#d3d3d3")
 frame_input.pack(pady=5)
 
-task_entry = tk.Entry(frame_input, width=25, font=("Times New Roman", 14))
+task_entry = tk.Entry(frame_input, width=25, font=("Times New Roman", 13))
 task_entry.pack(side=tk.LEFT, padx=5)
 
 category_entry = tk.Entry(frame_input, width=15, font=("Times New Roman", 14))
